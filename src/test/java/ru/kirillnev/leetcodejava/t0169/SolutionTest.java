@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SolutionTest {
-    public static Object[][] dateProvider(){
+    private static Object[][] dateProvider(){
         return new Object[][]{
                 new Object[]{new int[]{5}, 5},
                 new Object[]{new int[]{3,2,3}, 3},
